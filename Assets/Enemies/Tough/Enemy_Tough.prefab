@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -1256394858740346079}
   - component: {fileID: -1992899525529352927}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy_Tough
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 17e3cfb28a1ba5b44a43a8c99bb7112e, type: 2}
+  - {fileID: 2100000, guid: 7bb848cf341b5a04a8d091b8170a3a83, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,11 +120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 110605d02f54ea341bf2fb4b306ff85f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startSpeed: 10
+  startSpeed: 7
   speed: 10
-  startHealth: 100
-  worth: 50
-  deathEffect: {fileID: 6691626434259836892, guid: 2e7a22622e984f049b20229841dba694, type: 3}
+  startHealth: 350
+  worth: 140
+  deathEffect: {fileID: 6691626434259836892, guid: 91b0db9c8dc44534f96f3de7b460e580, type: 3}
   healthBar: {fileID: 117914464676633151}
 --- !u!114 &-1992899525529352927
 MonoBehaviour:
